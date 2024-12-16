@@ -7,9 +7,8 @@ import os
 geolocator = Nominatim(user_agent="geo_analysis", timeout=10)
 
 
-input_file = r'C:\Users\osman\OneDrive\Desktop\IndeedWebScraper\clean_data\combined_job_data.csv'
-output_file = r'./geo-analysis/geocoded_jobs.csv'
-
+input_file = r'C:\Users\osman\OneDrive\Desktop\JobWebScraper\IndeedWebScraper\clean_data\cleaned_combined_job_data.csv'
+output_file = r'C:\Users\osman\OneDrive\Desktop\JobWebScraper\IndeedWebScraper\geo-analysis\geocoded_jobs.csv' 
 # Read the data
 data = pd.read_csv(input_file)
 
